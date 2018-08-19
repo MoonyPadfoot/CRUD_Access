@@ -27,14 +27,14 @@ Partial Class Login
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,16 +90,6 @@ Partial Class Login
         Me.Panel1.Size = New System.Drawing.Size(166, 32)
         Me.Panel1.TabIndex = 3
         '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.PictureBox2)
-        Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Location = New System.Drawing.Point(39, 227)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Padding = New System.Windows.Forms.Padding(1)
-        Me.Panel2.Size = New System.Drawing.Size(167, 32)
-        Me.Panel2.TabIndex = 4
-        '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
@@ -111,6 +101,16 @@ Partial Class Login
         Me.PictureBox1.Size = New System.Drawing.Size(35, 30)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.PictureBox2)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Location = New System.Drawing.Point(39, 227)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Padding = New System.Windows.Forms.Padding(1)
+        Me.Panel2.Size = New System.Drawing.Size(167, 32)
+        Me.Panel2.TabIndex = 4
         '
         'PictureBox2
         '
@@ -125,11 +125,12 @@ Partial Class Login
         '
         'PictureBox3
         '
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(186, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox3.Location = New System.Drawing.Point(75, 58)
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox3.Location = New System.Drawing.Point(68, 50)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(99, 84)
+        Me.PictureBox3.Size = New System.Drawing.Size(117, 99)
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
         '
@@ -147,7 +148,7 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(183, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(253, Byte), Integer))
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(251, 354)
@@ -167,9 +168,9 @@ Partial Class Login
         Me.Text = " "
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
