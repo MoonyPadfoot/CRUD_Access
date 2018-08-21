@@ -1,6 +1,6 @@
 ﻿Module ReferModule
     Public dbConnection As New OleDb.OleDbConnection
-    ' Public dbCommand As OleDb.OleDbCommand
+    Public dbCommand As OleDb.OleDbCommand
     Public dbDReader As OleDb.OleDbDataReader
     Public query As String
     Dim _dbPath As String
