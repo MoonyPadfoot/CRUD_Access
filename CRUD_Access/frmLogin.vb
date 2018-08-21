@@ -30,15 +30,17 @@
         student.PWord = Me.txtPassword.Text
         If student.Save() = True Then
             MessageBox.Show("success")
+        Else
+            UNameRed()
+            PWordRed()
+            txtPassword.Clear()
         End If
         If Trim(Me.txtUsername.Text) = "" Or Trim(Me.txtUsername.Text) = "username" Then
-            Me.pnlUsername.BackColor = ColorTranslator.FromHtml("#e74c3c")
-            Me.picUser.BackColor = ColorTranslator.FromHtml("#e74c3c")
+            UNameRed()
             txtUsername.Text = vbNullString
         End If
         If Trim(Me.txtPassword.Text) = "" Or Trim(Me.txtPassword.Text) = "password" Then
-            Me.pnlPassword.BackColor = ColorTranslator.FromHtml("#e74c3c")
-            Me.picPass.BackColor = ColorTranslator.FromHtml("#e74c3c")
+            PWordRed()
             txtPassword.Text = vbNullString
         End If
     End Sub
@@ -58,5 +60,15 @@
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Me.Hide()
         frmDb.Show()
+    End Sub
+    Private Sub PWordRed()
+        Me.pnlPassword.BackColor = ColorTranslator.FromHtml("#e74c3c")
+        Me.picPass.BackColor = ColorTranslator.FromHtml("#e74c3c")
+
+    End Sub
+    Private Sub UNameRed()
+        Me.pnlUsername.BackColor = ColorTranslator.FromHtml("#e74c3c")
+        Me.picUser.BackColor = ColorTranslator.FromHtml("#e74c3c")
+
     End Sub
 End Class

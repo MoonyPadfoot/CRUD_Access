@@ -69,6 +69,7 @@ Partial Class frmDb
         Me.txtPath.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtPath.Multiline = True
         Me.txtPath.Name = "txtPath"
+        Me.txtPath.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.txtPath.Size = New System.Drawing.Size(309, 27)
         Me.txtPath.TabIndex = 0
         '
@@ -100,7 +101,7 @@ Partial Class frmDb
         '
         'frmDb
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.CRUD_Access.My.Resources.Resources.minmalist1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch

@@ -47,9 +47,10 @@ Partial Class frmLogin
         Me.txtUsername.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtUsername.Location = New System.Drawing.Point(1, 1)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtUsername.Multiline = True
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(133, 30)
+        Me.txtUsername.Size = New System.Drawing.Size(177, 37)
         Me.txtUsername.TabIndex = 0
         Me.txtUsername.Text = "username"
         Me.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -58,9 +59,10 @@ Partial Class frmLogin
         '
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.btnLogin.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.Location = New System.Drawing.Point(41, 306)
+        Me.btnLogin.Location = New System.Drawing.Point(55, 377)
+        Me.btnLogin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(77, 41)
+        Me.btnLogin.Size = New System.Drawing.Size(103, 50)
         Me.btnLogin.TabIndex = 2
         Me.btnLogin.Text = "LOGIN"
         Me.btnLogin.UseVisualStyleBackColor = True
@@ -73,9 +75,10 @@ Partial Class frmLogin
         Me.txtPassword.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.SystemColors.WindowFrame
         Me.txtPassword.Location = New System.Drawing.Point(1, 1)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPassword.Multiline = True
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(133, 30)
+        Me.txtPassword.Size = New System.Drawing.Size(177, 37)
         Me.txtPassword.TabIndex = 1
         Me.txtPassword.Text = "password"
         Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -85,10 +88,11 @@ Partial Class frmLogin
         Me.pnlUsername.BackColor = System.Drawing.Color.White
         Me.pnlUsername.Controls.Add(Me.picUser)
         Me.pnlUsername.Controls.Add(Me.txtUsername)
-        Me.pnlUsername.Location = New System.Drawing.Point(40, 199)
+        Me.pnlUsername.Location = New System.Drawing.Point(53, 245)
+        Me.pnlUsername.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pnlUsername.Name = "pnlUsername"
         Me.pnlUsername.Padding = New System.Windows.Forms.Padding(1)
-        Me.pnlUsername.Size = New System.Drawing.Size(166, 32)
+        Me.pnlUsername.Size = New System.Drawing.Size(221, 39)
         Me.pnlUsername.TabIndex = 3
         '
         'picUser
@@ -97,9 +101,10 @@ Partial Class frmLogin
         Me.picUser.BackgroundImage = Global.CRUD_Access.My.Resources.Resources.if_41_User_2123927
         Me.picUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.picUser.Dock = System.Windows.Forms.DockStyle.Right
-        Me.picUser.Location = New System.Drawing.Point(130, 1)
+        Me.picUser.Location = New System.Drawing.Point(173, 1)
+        Me.picUser.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picUser.Name = "picUser"
-        Me.picUser.Size = New System.Drawing.Size(35, 30)
+        Me.picUser.Size = New System.Drawing.Size(47, 37)
         Me.picUser.TabIndex = 1
         Me.picUser.TabStop = False
         '
@@ -108,10 +113,11 @@ Partial Class frmLogin
         Me.pnlPassword.BackColor = System.Drawing.Color.White
         Me.pnlPassword.Controls.Add(Me.picPass)
         Me.pnlPassword.Controls.Add(Me.txtPassword)
-        Me.pnlPassword.Location = New System.Drawing.Point(39, 254)
+        Me.pnlPassword.Location = New System.Drawing.Point(52, 313)
+        Me.pnlPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pnlPassword.Name = "pnlPassword"
         Me.pnlPassword.Padding = New System.Windows.Forms.Padding(1)
-        Me.pnlPassword.Size = New System.Drawing.Size(166, 32)
+        Me.pnlPassword.Size = New System.Drawing.Size(221, 39)
         Me.pnlPassword.TabIndex = 4
         '
         'picPass
@@ -120,9 +126,10 @@ Partial Class frmLogin
         Me.picPass.BackgroundImage = Global.CRUD_Access.My.Resources.Resources.if_46_Lock_2123931
         Me.picPass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.picPass.Dock = System.Windows.Forms.DockStyle.Right
-        Me.picPass.Location = New System.Drawing.Point(130, 1)
+        Me.picPass.Location = New System.Drawing.Point(173, 1)
+        Me.picPass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picPass.Name = "picPass"
-        Me.picPass.Size = New System.Drawing.Size(35, 30)
+        Me.picPass.Size = New System.Drawing.Size(47, 37)
         Me.picPass.TabIndex = 2
         Me.picPass.TabStop = False
         '
@@ -131,9 +138,10 @@ Partial Class frmLogin
         Me.picLogo.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.picLogo.BackgroundImage = Global.CRUD_Access.My.Resources.Resources.R_logo_svg
         Me.picLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picLogo.Location = New System.Drawing.Point(46, 34)
+        Me.picLogo.Location = New System.Drawing.Point(61, 42)
+        Me.picLogo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picLogo.Name = "picLogo"
-        Me.picLogo.Size = New System.Drawing.Size(158, 150)
+        Me.picLogo.Size = New System.Drawing.Size(211, 185)
         Me.picLogo.TabIndex = 3
         Me.picLogo.TabStop = False
         '
@@ -141,21 +149,22 @@ Partial Class frmLogin
         '
         Me.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.btnBack.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBack.Location = New System.Drawing.Point(129, 306)
+        Me.btnBack.Location = New System.Drawing.Point(172, 377)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(77, 41)
+        Me.btnBack.Size = New System.Drawing.Size(103, 50)
         Me.btnBack.TabIndex = 5
         Me.btnBack.Text = "BACK"
         Me.btnBack.UseVisualStyleBackColor = True
         '
         'frmLogin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MintCream
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(251, 389)
+        Me.ClientSize = New System.Drawing.Size(335, 479)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.picLogo)
         Me.Controls.Add(Me.pnlPassword)
@@ -163,13 +172,14 @@ Partial Class frmLogin
         Me.Controls.Add(Me.btnLogin)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmLogin"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = " "
+        Me.Text = "AUTHENTICATION"
         Me.pnlUsername.ResumeLayout(False)
         Me.pnlUsername.PerformLayout()
         CType(Me.picUser, System.ComponentModel.ISupportInitialize).EndInit()
