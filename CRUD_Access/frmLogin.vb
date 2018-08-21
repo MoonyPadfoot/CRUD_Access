@@ -26,9 +26,11 @@
 
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim student As New Students
-
-        'If student.Save() = True Then
-        'MessageBox.Show("success")
+        student.UName = Me.txtUsername.Text
+        student.PWord = Me.txtPassword.Text
+        If student.Save() = True Then
+            MessageBox.Show("success")
+        End If
         If Trim(Me.txtUsername.Text) = "" Or Trim(Me.txtUsername.Text) = "username" Then
             Me.pnlUsername.BackColor = ColorTranslator.FromHtml("#e74c3c")
             Me.picUser.BackColor = ColorTranslator.FromHtml("#e74c3c")
